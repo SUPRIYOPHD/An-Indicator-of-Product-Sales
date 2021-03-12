@@ -1,4 +1,5 @@
 # An-Indicator-of-Product-Sales
 
-DataSet: http://jmcauley.ucsd.edu/data/amazon/
-https://nijianmo.github.io/amazon/
+DataSet: 
+1. http://jmcauley.ucsd.edu/data/amazon/
+2. https://nijianmo.github.io/amazon/
