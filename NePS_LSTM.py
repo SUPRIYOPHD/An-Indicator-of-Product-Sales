@@ -57,7 +57,7 @@ regressor.fit(X_train, y_train, epochs = 100, batch_size = 32)
 #Predicting Future Product Sale using the Test Set
 
 dataset_test = pd.read_csv('electest.csv')
-real_product_price = dataset_test.iloc[:, 1:2].values
+real_salesrank = dataset_test.iloc[:, 1:2].values
 
 dataset_total = pd.concat((dataset_train['x1'], dataset_test['x1']), axis = 0)
 inputs = dataset_total[len(dataset_total) - len(dataset_test) - 60:].values
@@ -69,7 +69,7 @@ for i in range(60, 76):
 X_test = np.array(X_test)
 X_test = np.reshape(X_test, (X_test.shape[0], X_test.shape[1], 1))
 predicted_salesrank = regressor.predict(X_test)
-predicted_salesrank = sc.inverse_transform(predicted_product_price)
+
 
 #Plotting 
 plt.plot(real_salesrank, color = 'black', label = 'SalesRank')
