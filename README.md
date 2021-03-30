@@ -7,6 +7,9 @@ DataSet:
 
 NePS.py: The evaluation of NePS.
 
+
+https://www.stata.com/
+
 NePS_LSTM.py: The implementation of LSTM model for prediction of product sales rank.
 
 
