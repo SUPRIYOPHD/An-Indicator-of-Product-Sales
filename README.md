@@ -8,7 +8,7 @@ DataSet:
 NePS.py: The evaluation of NePS.
 
 
-https://www.stata.com/
+STATA software (https://www.stata.com/) shows that NePS can be used as a strong indicator of product sales. 
 
 NePS_LSTM.py: The implementation of LSTM model for prediction of product sales rank.
 
