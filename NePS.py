@@ -18,7 +18,7 @@ def harmonic_sum(n):
 
 
 data = []
-with open('./trunc1L.json','r') as f:
+with open('./trunc1L.json','r') as f:  #load dataset : https://jmcauley.ucsd.edu/data/amazon/
 	for line in f:
 		data.append(json.loads(line))
 
