@@ -1,7 +1,8 @@
 # An-Indicator-of-Product-Sales
 
 Accepted in Electronic Markets - Springer.
-Paper:
+
+Paper: Electronic_Markets_Manuscript_v3.pdf
 
 DataSet: 
 1. http://jmcauley.ucsd.edu/data/amazon/
